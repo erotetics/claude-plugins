@@ -1,0 +1,10 @@
+1. Repo topology is the cause of stalls (vs review culture, test flakiness, approval process — no measurement cited)
+2. What works at Google transfers without Google's custom tooling investment (their monorepo depends on bespoke infra)
+3. Six teams' build/CI tooling can converge within one quarter (temporal underestimate)
+4. Trunk-based development requires feature-flag maturity — assumed to exist
+5. CI capacity can handle monorepo-wide test runs per commit
+6. Teams will actually comply (autonomy loss, migration fatigue — actor incentives unexamined)
+7. "Slow release cycle" is undefined (lead time? deploy frequency? — smuggled definition)
+8. Cross-repo PRs stalling = causation (hardest changes may stall wherever they live — correlation trap)
+9. A rollback/versioning strategy for a shared trunk exists
+10. Onboarding/hiring and code-ownership boundaries are unaffected

@@ -53,9 +53,12 @@ measurable content lift** — Claude already reasons well about assumptions —
 but discriminates **4/4 vs 0/4 on artifact form**: the canonical skeleton,
 the load-bearing/evidence table, the decorative dismissal, and the single
 settling question appear only with the lens. What you're installing is
-consistency and closure, not borrowed intelligence. We think naming that
-distinction matters more than a benchmark win; questioning our own answers is
-literally the methodology.
+consistency and closure, not borrowed intelligence. A second round on
+fresh, planted-assumption cases confirmed it (baseline 23/30 recall vs lens
+21/30) and exposed the mechanism — convergence traded coverage — which v0.2
+fixes by enumerating what it dismisses. We think naming that distinction
+matters more than a benchmark win; questioning our own answers is literally
+the methodology.
 
 ## Why
 

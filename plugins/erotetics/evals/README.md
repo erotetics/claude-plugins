@@ -35,3 +35,28 @@ triggered even by lazy phrasing (the skill auto-invokes on natural "check
 this plan" requests). Consistency of form, zero prompt-craft, and a
 convergent close are the product. That is what the erotetic method promises:
 not more analysis — clearer closure.
+
+## Round 2 — planted-assumption recall (fresh domains)
+
+Three non-folklore cases (`planted-*/`), each with 10 assumptions embedded by
+design (`key.txt`), several subtle: a hidden technical killer (Postgres has no
+native TTL), an adversarial actor (submission-farming fraud), a transfer trap
+(Google's monorepo needs Google's tooling). Grading = strict recall against
+the key, both arms, same lazy prompt.
+
+**Result: baseline 23/30, lens 21/30.** No content lift on fresh domains, and
+mildly negative — with an instructive split: the lens *won* the case where an
+actor-incentive plant needed the category sweep (it alone caught the fraud
+vector), and *lost* where its top-walls-only convergence discarded plants a
+free essay had simply enumerated (failure coupling, marginal ops cost,
+onboarding impact).
+
+**The finding behind the finding: form and closure cost coverage.** The lens
+is a decision-focuser; recall punishes curation. v0.2 addresses the honest
+part of that trade: the EXAMINE step now requires an exhaustive one-line
+"noted, not load-bearing" enumeration instead of a silent discard — keep the
+focus, stop paying for it with blindness. (Re-measurement pending.)
+
+*Caveats, stated plainly: n=1 per arm per case; single LLM judge pass; cases
+and keys authored with the same model family that generated the answers —
+keys are published for human audit. Directional conclusions only.*

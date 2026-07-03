@@ -38,8 +38,10 @@ For each surfaced assumption, classify in a table:
 
 | Assumption | Load-bearing? (what breaks if false) | Evidence status (verified / merely assumed / contradicted) |
 
-Discard the decorative ones explicitly — naming what does NOT matter is part
-of the service.
+Then list EVERY remaining surfaced assumption in a one-line "Noted, not
+load-bearing" appendix with a clause of why it doesn't gate the decision —
+never silently drop one. (Evals showed silent discarding costs real coverage:
+convergence must not purchase focus with blindness.)
 
 ## 3. CHALLENGE — strongest honest counter-case
 

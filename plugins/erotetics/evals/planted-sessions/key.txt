@@ -1,0 +1,10 @@
+1. Sessions are ONLY key-value semantics (TTL/expiry is the hidden killer: Postgres has no native TTL; expiry needs extra machinery)
+2. Latency class is equivalent (Redis sub-ms vs Postgres on the hot path of EVERY request)
+3. 15% memory = underutilised (that may BE the working set; Redis may be ops/CPU-bound, not memory-bound)
+4. Postgres connection pool has headroom for per-request session traffic (pool exhaustion risk)
+5. High-churn session rows are fine in Postgres (update/delete churn → bloat/autovacuum pressure)
+6. "Already in our stack" = zero marginal operational cost (session load changes PG tuning/backup/failover profile)
+7. Failure coupling: sessions now share fate with the primary DB — app-wide blast radius increases
+8. The migration/dual-write/cutover period is trivial and reversible
+9. Session invalidation/logout semantics remain identical after the move
+10. The cost saving is material relative to the engineering time spent

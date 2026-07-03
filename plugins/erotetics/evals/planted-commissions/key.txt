@@ -1,0 +1,10 @@
+1. Volume is the actual constraint (if underwriting capacity is the bottleneck, more applications worsen service, not revenue)
+2. Application QUALITY stays constant when paying on submission (moral hazard: incentivises weak/junk applications)
+3. Clawbacks are collectable in practice (small broker firms, 90 days later = bad debt + relationship damage)
+4. "Brokers prefer faster payment" holds across broker segments (networks vs directly-authorised have different cash dynamics)
+5. Competitors won't match the change, so any edge persists (temporal)
+6. Regulatory treatment (FCA inducement/commission rules) permits and stays stable
+7. 90 days is the right clawback window for bridging completion timelines
+8. The platform's working capital can fund paying commissions before loan revenue exists
+9. Fraud vector: bad-actor brokers farming submissions for fees
+10. Administering clawbacks costs ~nothing operationally
