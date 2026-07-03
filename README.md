@@ -34,6 +34,29 @@ description, an article, a web capture. It runs the four-step erotetic method:
 
 The output is not more analysis — it is clearer closure.
 
+## Example output
+
+From a real run against: *"We should rewrite our backend in Rust because it
+will make the product faster and help us attract better engineers."* —
+[full output here](docs/example-rust-rewrite.md). The shape of the close:
+
+> **The question to settle:** *What does profiling say is the cheapest way to
+> hit our (yet-to-be-defined) performance target — and does that evidence
+> point at our backend's CPU at all?* Until that's answered, the Rust rewrite
+> is a solution with no confirmed problem attached.
+
+## Evals — including the negative result
+
+This plugin ships with eval cases and rubrics (`plugins/erotetics/evals/`),
+and we publish what they found: on 2026 frontier models the lens adds **no
+measurable content lift** — Claude already reasons well about assumptions —
+but discriminates **4/4 vs 0/4 on artifact form**: the canonical skeleton,
+the load-bearing/evidence table, the decorative dismissal, and the single
+settling question appear only with the lens. What you're installing is
+consistency and closure, not borrowed intelligence. We think naming that
+distinction matters more than a benchmark win; questioning our own answers is
+literally the methodology.
+
 ## Why
 
 Most bad decisions are answers to the wrong question. The expensive failures
