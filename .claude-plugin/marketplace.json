@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "erotetics",
+  "version": "0.1.0",
+  "description": "Reasoning lenses from Erotetic Arts — better questions, better thinking.",
+  "owner": {
+    "name": "Erotetic Arts Ltd",
+    "email": "hello@erotetics.com"
+  },
+  "plugins": [
+    {
+      "name": "erotetics",
+      "description": "Erotetic assumption analysis: surface the presuppositions in any content, challenge the load-bearing ones, and reframe to the question that actually needs settling.",
+      "version": "0.1.0",
+      "author": { "name": "Erotetic Arts Ltd" },
+      "source": "./plugins/erotetics"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "erotetics",
+  "description": "Reasoning lenses from Erotetic Arts — /erotetics:assumptions surfaces and stress-tests the assumptions in any content.",
+  "version": "0.1.0",
+  "author": { "name": "Erotetic Arts Ltd", "email": "hello@erotetics.com" },
+  "homepage": "https://erotetics.com",
+  "repository": "https://github.com/erotetics/claude-plugins",
+  "license": "MIT"
+}
