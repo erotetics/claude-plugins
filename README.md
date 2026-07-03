@@ -54,9 +54,11 @@ but discriminates **4/4 vs 0/4 on artifact form**: the canonical skeleton,
 the load-bearing/evidence table, the decorative dismissal, and the single
 settling question appear only with the lens. What you're installing is
 consistency and closure, not borrowed intelligence. A second round on
-fresh, planted-assumption cases confirmed it (baseline 23/30 recall vs lens
-21/30) and exposed the mechanism — convergence traded coverage — which v0.2
-fixes by enumerating what it dismisses. We think naming that distinction
+fresh, planted-assumption cases exposed a coverage cost of convergence
+(21/30 vs baseline 23/30); v0.2's fix — enumerate what you dismiss —
+restored parity at 23/30 with the artifact form intact, and now beats the
+bare model on the most unfamiliar domain tested. Full data and known
+ceilings in [the evals README](plugins/erotetics/evals/README.md). We think naming that distinction
 matters more than a benchmark win; questioning our own answers is literally
 the methodology.
 

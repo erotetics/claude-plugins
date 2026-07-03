@@ -60,3 +60,27 @@ focus, stop paying for it with blindness. (Re-measurement pending.)
 *Caveats, stated plainly: n=1 per arm per case; single LLM judge pass; cases
 and keys authored with the same model family that generated the answers —
 keys are published for human audit. Directional conclusions only.*
+
+## Round 2b — v0.2 re-measurement
+
+| Arm | A | B | C | Total | Artifact form |
+|---|---|---|---|---|---|
+| Baseline essay | 6 | 9 | 8 | 23/30 | 0/4 |
+| Lens v0.1 | 7 | 7 | 7 | 21/30 | 4/4 |
+| **Lens v0.2** | **8** | 7 | **8** | **23/30** | 4/4 |
+
+The enumeration fix recovered exactly the surfaced-then-discarded plants —
+confirming the round-2 mechanism — and restored **parity with baseline
+recall while keeping the decision-artifact form**. On the most unfamiliar
+domain (case A) v0.2 now *beats* the essay by +2, both extra catches coming
+from forced category sweeps (actor incentives, operational cost).
+
+The residual gap (case B) is diagnostic: the two missed plants were never
+SURFACED in any lens run, so the remaining ceiling lives in the surface
+sweep, not the convergence. We are deliberately NOT adding matching
+categories to the skill — patching the method to catch our own planted
+items would be overfitting the eval, and we'd rather publish the known
+ceiling than quietly game our own benchmark.
+
+**Standing verdict:** equal coverage, superior form, occasional
+unfamiliar-domain edge, honest ceilings named. Same caveats as round 2.
