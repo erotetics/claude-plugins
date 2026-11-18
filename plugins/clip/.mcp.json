@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "capture": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/erotetics/clip-bridge@v0.2.0", "clip-bridge", "--stdio"]
+    }
+  }
+}

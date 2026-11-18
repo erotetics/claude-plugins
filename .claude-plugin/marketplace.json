@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "erotetics",
-  "version": "0.2.0",
-  "description": "Reasoning lenses from Erotetic Arts \u2014 better questions, better thinking.",
+  "version": "0.3.0",
+  "description": "Claude Code plugins from Erotetic Arts: reasoning lenses for better questions, and Clip for pulling web pages into your session.",
   "owner": {
     "name": "Erotetic Arts Ltd",
     "email": "hello@erotetics.com"
@@ -16,6 +16,15 @@
         "name": "Erotetic Arts Ltd"
       },
       "source": "./plugins/erotetics"
+    },
+    {
+      "name": "clip",
+      "description": "Clip any web page in the browser and it lands in your session: scroll screenshots, CSS selectors, console errors, a11y audit. Companion to the Clip browser extension; needs uv.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Erotetic Arts Ltd"
+      },
+      "source": "./plugins/clip"
     }
   ]
 }

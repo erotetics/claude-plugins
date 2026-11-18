@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run --no-project --quiet \"${CLAUDE_PLUGIN_ROOT}/hooks/clip_context.py\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

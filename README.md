@@ -70,6 +70,18 @@ presuppositions early, so they can be challenged before they become expensive
 surprises, is the whole practice. Read more at
 [erotetics.com](https://erotetics.com).
 
+## Also in this marketplace: Clip
+
+Clip a web page in the browser and it lands in your Claude Code session:
+scroll screenshots, CSS selectors, console errors, a11y audit, your note.
+Needs [uv](https://docs.astral.sh/uv/) and the Clip browser extension.
+
+```
+/plugin install clip@erotetics
+```
+
+Details: [plugins/clip](plugins/clip/README.md).
+
 ## About
 
 Built and maintained by [Erotetic Arts Ltd](https://erotetics.com) — a studio
